@@ -65,7 +65,8 @@ h1 {
 }
 
 .left-img {
-    height: 300px;
+    max-width: 300px;
+    width: 80%;
     border-radius: 100%;
     margin: 3rem;
 }
@@ -78,6 +79,7 @@ h1 {
 .left-home-img {
     display: flex;
     align-items: center;
+    height: 30%;
 }
 
 /*Social*/
@@ -126,7 +128,7 @@ h1 {
 }
 
 .social-twitter a {
-    background: #00acee;
+    background: black;
     height: 25px;
     width: 25px;
     display: flex;
@@ -160,100 +162,60 @@ h1 {
 }
 
 /* Skills */
-h3 {
-    font-size: 24px;
-    padding: 1rem;
-    display: flex;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-#skills-box {
-    margin-left: 4rem;
-    width: 90%;
+#skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
+    margin: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-#skills {
-    background-color: #007cba;
-    width: 50%;
-    border-radius: 30px;
-    list-style-type: none;
-    padding: 0.22rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-.skills-python {
-    width: 75%;
-    border-radius: 24px;
+#skills-header{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: #007cba;
+    font-size: 24px;
 }
 
-.skills-html {
-    width: 99%;
-    border-radius: 24px;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
+.skills-mobile {
+    background: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.skills-css {
-    width: 80%;
-    border-radius: 24px;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
+.skills-web {
+    background: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.skills-dart {
-    width: 28%;
-    border-radius: 24px;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
+.skills-software {
+    background: whitesmoke;
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 30px;
+    display: flex;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.skills-flutter {
-    width: 35%;
-    border-radius: 24px;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
-}
 
-.skills-csharp {
-    width: 45%;
-    border-radius: 24px;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    padding-right: 2%;
-    text-align: right;
-    font-size: 14px;
-}
 
 /*Footer*/
 #footer {
